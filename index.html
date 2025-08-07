@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & Box Model Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="main-title">Welcome to CSS Basics</h1>
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section id="about" class="section">
+            <h2 class="section-title">About the Box Model</h2>
+            <p class="intro-text">
+                The CSS Box Model is a fundamental concept that describes how elements are structured and spaced on a web page. 
+                Every element is essentially a rectangular box consisting of content, padding, border, and margin.
+            </p>
+            
+            <div class="box-demo">
+                <div class="content-box">
+                    <h3>Content Area</h3>
+                    <p>This is the actual content of the element - text, images, or other HTML elements.</p>
+                </div>
+                
+                <div class="padding-box">
+                    <h3>Padding Area</h3>
+                    <p>Padding creates space between the content and the border. It's inside the element.</p>
+                </div>
+                
+                <div class="border-box">
+                    <h3>Border Area</h3>
+                    <p>The border wraps around the padding and content. It can be styled with different colors and widths.</p>
+                </div>
+                
+                <div class="margin-box">
+                    <h3>Margin Area</h3>
+                    <p>Margins create space outside the element, separating it from other elements.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <h2 class="section-title">CSS Properties Demo</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <h3 class="card-title">Typography</h3>
+                    <p class="card-text">Different font sizes, colors, and styles to enhance readability and visual hierarchy.</p>
+                    <button class="card-button">Learn More</button>
+                </div>
+                
+                <div class="card">
+                    <h3 class="card-title">Colors</h3>
+                    <p class="card-text">Background colors and text colors work together to create visual appeal and contrast.</p>
+                    <button class="card-button">Explore</button>
+                </div>
+                
+                <div class="card">
+                    <h3 class="card-title">Spacing</h3>
+                    <p class="card-text">Proper use of margins and padding creates clean, organized layouts with good visual flow.</p>
+                    <button class="card-button">Discover</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Information</h2>
+            <div class="contact-info">
+                <p class="contact-text">This demonstration showcases the fundamental concepts of CSS styling and the Box Model.</p>
+                <p class="contact-text">Each element has been carefully styled to show how different properties affect layout and appearance.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text">&copy; 2025 CSS Basics Demo. Created for educational purposes.</p>
+    </footer>
+</body>
+</html>
